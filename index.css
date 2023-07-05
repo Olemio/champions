@@ -1,0 +1,114 @@
+body {
+    background-color: #1B1924;
+    color: white;
+    width: 320px;
+    margin: 51px auto 0;
+    padding: 0;
+    text-align: center;
+    font-family: Inter;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header-img {
+    height: 90px;
+    width: 90px;
+}
+
+#title {
+    font-family: Josefin sans;
+    font-size: 25px;
+    margin: 17px 0 19px 0;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
+#write-endorsment {
+    background-color: #444059;
+    color: #8F8F8F;
+    border-radius: 8px;
+    border: none;
+    height: 100px;
+    font-family: Inter;
+    font-size: 15px;
+    resize: none;
+    padding: 10px 15px
+}
+
+#sender-receiver {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+#sender-receiver input {
+    width: 150px;
+    background-color: #444059;
+    color: #8F8F8F;
+    border-radius: 8px;
+    border: none;
+    height: 40px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+
+}
+
+#publish-btn {
+    color: #04131C;
+    background-color: #28A9F1;
+    height: 60px;
+    border-radius: 8px;
+    border: none;
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#endorsments {
+    display: flex;
+    flex-direction: column;
+}
+
+#endorsments h2 {
+    font-size: 20px;
+    font-family: Josefin Sans;
+    font-weight: 400;
+    margin: 30px 0 20px 0;
+}
+
+#endorsments ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#endorsments ul li {
+    background-color: white;
+    color: #1B1924;
+    margin: 0 0 13px 0;
+    font-size: 12px;
+    padding: 13px 14px;
+    text-align: left;
+    font-family: Inter;
+}
+
+#endorsments ul li h3 {
+    margin: 0px
+}
+
+#endorsments ul li p {
+    margin: 13px 0 8px;
+}
+
+#endorsments ul li button{
+    background-color: white;
+    border: none;
+}
