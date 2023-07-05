@@ -42,7 +42,7 @@ onValue(endorsmentListInDB, function(snapshot) {
                 likes: dbValuesArray[i][1].likes,
                 id: dbValuesArray[i][0]
             }
-    
+
             appendNewEndorsment(currentEndorsment)
         }
     } else {
@@ -70,8 +70,6 @@ function appendNewEndorsment(endorsment) {
         
         newButtonEl.innerHTML = `🖤 ${newLikes}`
     })
-
-    
 
     newLiEl.innerHTML = `
         <h3>
